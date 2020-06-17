@@ -3,6 +3,8 @@
 ## 效果图
 ![demo1](./static/demo1.gif)
 ![demo2](./static/demo2.gif)
+![](./static/1.png)
+![](./static/2.png)
 
 ## 兼容平台
 
