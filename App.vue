@@ -15,6 +15,9 @@
 <style lang="scss">
 	/*每个页面公共css */
 	@import './css/iconfont.css';
+	page{
+		background-color: #fff;
+	}
 	button {
 		padding: 0;
 		margin: 0;

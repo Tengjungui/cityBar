@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "城市索引栏",
+  "component": true,
+  "usingComponents": {
+    "t-city": "/components/t-city"
+  }
+}

@@ -1,0 +1,296 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.borderBottom.data-v-783022f4 {
+  position: relative;
+}
+.borderBottom.data-v-783022f4::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background: #c1c2cd;
+  -webkit-transform: scaleY(0.5);
+          transform: scaleY(0.5);
+}
+.city-search-wrap.data-v-783022f4 {
+  width: 100%;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+.city-search-wrap .search.data-v-783022f4 {
+  width: 100%;
+  height: 60rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 24rpx;
+  color: #222;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background: #fff;
+}
+.city-search-wrap .search .l-search.data-v-783022f4 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  position: relative;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.city-search-wrap .search .l-search .icon-search.data-v-783022f4 {
+  font-size: 26rpx;
+  position: absolute;
+  left: 30rpx;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: #8e8f97;
+  font-weight: 700;
+}
+.city-search-wrap .search .l-search .input-search.data-v-783022f4 {
+  height: 60rpx;
+  box-sizing: border-box;
+  padding: 0 100rpx 0 100rpx;
+  text-align: center;
+  background: #f4f5f9;
+  border-radius: 50rpx;
+  border: 0;
+}
+.city-search-wrap .search .l-search .clear-input.data-v-783022f4 {
+  font-size: 30rpx;
+  position: absolute;
+  right: 10rpx;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  padding: 10rpx;
+  color: #8e8f97;
+}
+.city-search-wrap .search .r-cancel.data-v-783022f4 {
+  margin-left: 28rpx;
+  padding-right: 30rpx;
+  padding: 0;
+  font-size: 30rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  background: transparent;
+  border: 0;
+}
+.reach-content.data-v-783022f4 {
+  padding-top: 60rpx;
+}
+.reach-content .li.data-v-783022f4 {
+  font-size: 32rpx;
+  color: #333;
+  padding: 20rpx 0;
+  position: relative;
+}
+.block.data-v-783022f4 {
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+.borderBottom.data-v-783022f4 {
+  position: relative;
+}
+.borderBottom.data-v-783022f4::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: calc(100% - 50rpx);
+  height: 1px;
+  background: #c1c2cd;
+  -webkit-transform: scaleY(0.5);
+          transform: scaleY(0.5);
+}
+.top-search.data-v-783022f4 {
+  height: 60rpx;
+  line-height: 60rpx;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  margin-bottom: 20rpx;
+}
+.top-search .item.data-v-783022f4 {
+  background: #f4f5f9;
+  border-radius: 50rpx;
+  font-size: 24rpx;
+  text-align: center;
+  color: #8e8f97;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.top-search .item text.data-v-783022f4 {
+  padding-left: 20rpx;
+  color: #c1c2cd;
+}
+.top-search .item .icon-search.data-v-783022f4 {
+  font-size: 26rpx;
+  color: #8e8f97;
+  font-weight: 700;
+}
+.scroll-view.data-v-783022f4 {
+  width: 100%;
+  height: calc(100vh - 80rpx);
+  box-sizing: border-box;
+}
+.area.data-v-783022f4 {
+  padding-bottom: 40rpx;
+  margin-bottom: 44rpx;
+}
+.area .title-wrapp.data-v-783022f4 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background: #fff;
+}
+.area .title.data-v-783022f4 {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 40rpx;
+  font-weight: 500;
+  color: #222;
+  font-size: 30rpx;
+  font-weight: 500;
+  margin-bottom: 14rpx;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.area .title .r.data-v-783022f4 {
+  font-size: 24rpx;
+  color: #8e8f97;
+  display: inline-block;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.area .title .r .iconfont.data-v-783022f4 {
+  font-size: 24rpx;
+}
+.area .ul.data-v-783022f4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.area .ul .li.data-v-783022f4 {
+  width: 202rpx;
+  padding: 0 10rpx;
+  box-sizing: border-box;
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  font-size: 26rpx;
+  color: #222;
+  border-radius: 10rpx;
+  margin: 20rpx 20rpx 0 0;
+  background: #f4f5f9;
+}
+.area .ul .li.active.data-v-783022f4 {
+  font-weight: 500;
+  background: #ffde45;
+}
+.area .ul .hover.data-v-783022f4 {
+  background: #ffde45;
+}
+.city-list.data-v-783022f4 {
+  width: 677rpx;
+  padding-bottom: 50rpx;
+}
+.city-list .title.data-v-783022f4 {
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 30rpx;
+  font-weight: 500;
+  color: #272636;
+  background: #f4f5f9;
+  margin-bottom: 20rpx;
+  padding-left: 30rpx;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.city-list .item.data-v-783022f4 {
+  padding: 24rpx 0 24rpx 30rpx;
+  color: #333;
+  font-size: 32rpx;
+  font-weight: 500;
+}
+.city-list .item.data-v-783022f4::after {
+  left: 30rpx;
+  width: calc(100% - 30rpx);
+  background: #d2d2d2;
+}
+.city-list .hover.data-v-783022f4 {
+  background: #f4f5f9;
+}
+.city-list .hover.data-v-783022f4::after {
+  background: #f4f5f9;
+}
+.alphabet.data-v-783022f4 {
+  position: fixed;
+  right: 0;
+  bottom: 20%;
+  width: calc(750rpx - 680rpx);
+  text-align: center;
+  font-size: 20rpx;
+  font-weight: 700;
+  color: #8e8f97;
+}
+.alphabet .item.data-v-783022f4 {
+  height: 15px;
+  line-height: 15px;
+}
+.alphabet .active.data-v-783022f4 {
+  color: #222;
+}
+.has-no-data.data-v-783022f4 {
+  font-size: 24rpx;
+  text-align: center;
+  color: #8e8f97;
+  margin-top: 50rpx;
+}
+

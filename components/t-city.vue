@@ -318,13 +318,19 @@
 			top: 0;
 			z-index: 1;
 			background: #fff;
-
+			/* #ifdef H5 */
+				position: fixed;
+				left: 0;
+				top: 4;
+				z-index: 1;
+				background: #fff;
+			/* #endif */
 			.l-search {
 				flex: 1;
-				background: #f4f5f9;
-				border-radius: 50rpx;
+				
 				position: relative;
-
+				height: 60rpx;
+				line-height: 60rpx;
 				.icon-search {
 					font-size: 26rpx;
 					position: absolute;
@@ -340,6 +346,9 @@
 					box-sizing: border-box;
 					padding: 0 100rpx 0 100rpx;
 					text-align: center;
+					background: #f4f5f9;
+					border-radius: 50rpx;
+					border:0;
 				}
 
 				.clear-input {
@@ -358,8 +367,12 @@
 				padding-right: 30rpx;
 				padding: 0;
 				font-size: 30rpx;
+				height: 60rpx;
+				line-height: 60rpx;
 				background: transparent;
+				border:0;
 			}
+			
 		}
 	}
 
@@ -400,14 +413,17 @@
 		padding: 0 30rpx;
 		box-sizing: border-box;
 		margin-bottom: 20rpx;
-
+		
 		.item {
 			background: #f4f5f9;
 			border-radius: 50rpx;
 			font-size: 24rpx;
 			text-align: center;
 			color: #8e8f97;
-
+			/* #ifdef MP-ALIPAY */
+				height: 60rpx;
+				line-height: 60rpx;
+			/* #endif */
 			text {
 				padding-left: 20rpx;
 				color: #c1c2cd;

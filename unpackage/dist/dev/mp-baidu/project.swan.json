@@ -1,0 +1,18 @@
+{
+    "appid": "17767960",
+    "appInfo": {},
+    "appkey": "",
+    "condition": {},
+    "setting": {
+        "urlCheck": true
+    },
+    "libVersion": "",
+    "projectname": "program",
+    "host": "baiduboxapp",
+    "swan": {
+        "baiduboxapp": {
+            "swanJsVersion": "3.180.10",
+            "extensionJsVersion": "1.13.1"
+        }
+    }
+}

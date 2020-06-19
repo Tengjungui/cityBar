@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "城市索引栏",
+  "usingComponents": {
+    "t-city": "/components/t-city"
+  }
+}
