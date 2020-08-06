@@ -321,7 +321,7 @@
 			/* #ifdef H5 */
 				position: fixed;
 				left: 0;
-				top: 4;
+				top:top: calc(44px + env(safe-area-inset-top));
 				z-index: 1;
 				background: #fff;
 			/* #endif */
